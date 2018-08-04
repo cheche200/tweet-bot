@@ -22,7 +22,7 @@ public class AutoDocumentationConfiguration {
     public Docket api(@Value("${tweetbot.version}") String tweetBotVersion) {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors
-                .basePackage("com.chechecalderon.controller"))
+                .basePackage("com.chechecalderon.tweetbot.controller"))
                 .paths(PathSelectors.any()).build().apiInfo(apiInfo(tweetBotVersion));
     }
 
