@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: testjp.aiml -->
+<!-- File: update.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: September 21, 2017 -->
+<!-- Last modified: August 04, 2018 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2017 by ALICE AI Foundation. -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
 <!--  -->
 <!-- The SUPER brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
@@ -15,10 +15,13 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<category><pattern>GREETINGS</pattern>
-<template>????????????????????????</template>
+<category><pattern>VERSION</pattern>
+<template>S.U.P.E.R. AIML Bot version 0.0.4</template>
 </category>
-<category><pattern>?????</pattern>
-<template><srai>GREETINGS</srai></template>
+<category><pattern>BUILD</pattern>
+<template>Sat Aug 04 12:43:57 GMT 2018</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>
 </category>
 </aiml>
