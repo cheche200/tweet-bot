@@ -41,12 +41,26 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Chat Bot Dependency -->
 		<dependency>
 			<artifactId>com.google</artifactId>
 			<groupId>Ab</groupId>
 			<version>0.0.4.3</version>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/Ab.jar</systemPath>
+		</dependency>
+
+		<!-- Swagger Dependency -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 	</dependencies>
 
