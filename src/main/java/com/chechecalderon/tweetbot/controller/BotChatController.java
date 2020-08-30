@@ -14,9 +14,6 @@ public class BotChatController {
     @Autowired
     BotChatService botChatService;
 
-    @Autowired
-    TweetController tweetController;
-
     @RequestMapping(value = "/user", method = RequestMethod.POST)
     public String getResponse(@RequestBody String request){
         String response = botChatService.getResponse(request);

@@ -56,13 +56,6 @@
 			<systemPath>${basedir}/lib/Ab.jar</systemPath>
 		</dependency>
 
-		<!-- Spring Social API -->
-
-		<dependency>
-			<groupId>org.springframework.social</groupId>
-			<artifactId>spring-social-twitter</artifactId>
-			<version>1.1.0.RELEASE</version>
-		</dependency>
 
 		<!-- Swagger Dependency -->
 		<dependency>
@@ -79,8 +72,8 @@
 
 		<dependency>
 			<groupId>org.twitter4j</groupId>
-			<artifactId>twitter4j-core</artifactId>
-			<version>[4.0,)</version>
+			<artifactId>twitter4j-stream</artifactId>
+			<version>4.0.7</version>
 		</dependency>
 
 	</dependencies>
