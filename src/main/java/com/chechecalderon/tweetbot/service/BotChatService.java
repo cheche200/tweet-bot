@@ -15,7 +15,6 @@ public class BotChatService {
     Bot bot = new Bot("super", resourcesPath);
 
     public String getResponse(String request) {
-
         return getBotResponse(request);
     }
 
